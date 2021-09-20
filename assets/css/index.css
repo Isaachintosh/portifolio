@@ -47,7 +47,7 @@ body {
     margin-right: auto;
     width: 150px;
     transform: translateY(-25%);
-    border: 10px solid #000000;
+    border: 10px solid rgba(0, 0, 0, 0.7);
     border-radius: 6rem;
 }
 
@@ -58,6 +58,8 @@ body {
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(3px);
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 
@@ -69,12 +71,11 @@ body {
 }
 
 .resumee_card {
-    background: rgba(21, 21, 21, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 0.7rem;
     padding: 1rem;
     margin: 1rem 0rem;
-    border: 0.1rem solid #222;
-    width: 46%;
+    width: 44%;
 }
 
 .resumee_title {
@@ -90,16 +91,16 @@ body {
 }
 
 .projects {
-    background: rgba(21, 21, 21, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     padding: 1rem;
-    margin: 1rem 1rem;
+    margin: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
     align-items: center;
     border-radius: 1rem;
-    width: 46%;
+    width: 44%;
 }
 
 a {
@@ -109,7 +110,7 @@ a {
 
 button {
     background-color: black;
-    background-image: linear-gradient(black, grey);
+    background-image: linear-gradient(black, #808080);
     padding: 15px;
     margin: 15px;
     border: none;
@@ -132,4 +133,16 @@ button:after {
     width: calc(100% - 4px);
     height: 50%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.btn_projects:hover {
+    background: linear-gradient(#303030, #939393);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_projects:active {
+    background: linear-gradient(#101010, #434343);
+    cursor: pointer;
+    transition: 0.5s;
 }
