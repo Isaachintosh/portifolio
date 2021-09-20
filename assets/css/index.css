@@ -172,3 +172,70 @@ button:after {
     cursor: pointer;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 1024px) {
+    html {
+        height: auto;
+        padding: 16vh 0vw;
+    }
+    .main_card {
+        width: 75%;
+    }
+    .certifications {
+        width: auto;
+    }
+
+    .btn_projects {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        height: auto;
+        padding: 16vh 0vw;
+    }
+
+    .main_card {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .resumee_content {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 1rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resumee_card {
+        width: 90%;
+    }
+
+    .projects {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    html {
+        height: auto;
+    }
+
+    .main_card {
+        margin: 4rem 0rem;
+        justify-content: space-around;
+        height: 128rem;
+    }
+
+    .header_content {
+        width: 98%;   
+    }
+}
