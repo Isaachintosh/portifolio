@@ -1,0 +1,135 @@
+html {
+    height: 120vh;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ff5722; */
+    background-image: url('/assets/img/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #ffffff;
+    height: 99%;
+}
+
+.main_card {
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    box-shadow: 5px 5px 30px 8px rgba(0, 0, 0, 0.59);
+    padding: 1rem;
+    width: 60%;
+    border-radius: 1rem;
+}
+
+.header_content {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQxCxqAivOYuEtVU2-fF5Ovxt5vI7d1zopxe1IP3e9fDPi0t1Y-4tNhiD&s=10');
+    background-size: cover;
+    background-position: center center;
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.personal_header {
+    height: 8rem;
+}
+
+.personal_avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    transform: translateY(-25%);
+    border: 10px solid #000000;
+    border-radius: 6rem;
+}
+
+.main_title {
+    text-align: center;
+    margin: 1rem 0rem;
+    font-size: 1.6rem;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    padding: 1rem;
+}
+
+
+.resumee_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.resumee_card {
+    background: rgba(21, 21, 21, 0.4);
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border: 0.1rem solid #222;
+    width: 46%;
+}
+
+.resumee_title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.resumee_description {
+    line-height: 2.25rem;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.projects {
+    background: rgba(21, 21, 21, 0.4);
+    padding: 1rem;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 46%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button {
+    background-color: black;
+    background-image: linear-gradient(black, grey);
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    width: 65%;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: relative;
+    font-style: bolder;
+}
+
+button:after {
+    top: 2px;
+    left: 2px;
+    content: '';
+    position: absolute;
+    border-radius: 1rem;
+    width: calc(100% - 4px);
+    height: 50%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
