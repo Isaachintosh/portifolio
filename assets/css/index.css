@@ -71,6 +71,11 @@ body {
 }
 
 .resumee_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 0.7rem;
     padding: 1rem;
@@ -90,6 +95,26 @@ body {
     text-align: justify;
 }
 
+.certifications {
+    font-size: 1.35rem;
+    margin: 1rem 0rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.certifications:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 500ms;
+}
+
+.certifications:active {
+    background: rgba(255, 255, 255, 0.5);
+    transition: 500ms;
+}
+
 .projects {
     background: rgba(0, 0, 0, 0.6);
     padding: 1rem;
@@ -106,6 +131,7 @@ body {
 a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 1rem;
 }
 
 button {
