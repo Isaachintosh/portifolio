@@ -1,5 +1,9 @@
 html {
-    height: 120vh;
+    height: 180vh;
+    background-image: url('../img/network-connections-earth-lights-blue-horizon-3840x2400-2463.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -10,10 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: #ff5722; */
-    background-image: url('https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     font-family: sans-serif;
     color: #ffffff;
     height: 99%;
@@ -29,7 +29,7 @@ body {
 }
 
 .header_content {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQxCxqAivOYuEtVU2-fF5Ovxt5vI7d1zopxe1IP3e9fDPi0t1Y-4tNhiD&s=10');
+    background-image: url('https://images6.alphacoders.com/102/1020188.jpg');
     background-size: cover;
     background-position: center center;
     height: 12rem;
